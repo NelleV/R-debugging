@@ -1,0 +1,13 @@
+-----
+title: "Nelle can't debug R stuff"
+output:
+    html_document:
+	toc: true
+----
+
+```{r}
+source("utils.R")
+my_name = "nelle"
+hello_world(my_name)
+broken_hello_world(my_name)
+```
